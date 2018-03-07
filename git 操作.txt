@@ -1,0 +1,25 @@
+一，上传：
+1.进入库目录 ：git add *
+2.提交操作信息：git commit -m "填写此次操作备注信息字符串"
+3.推送到github：git push origin master
+4.完成
+注： origin 必须是绑定 github 版本库url的, master 是这个远程版本库的主分支名称；
+
+二，origin 绑定版本库url
+1. git remote add origin https://github.com/hebbely/QtDemo.git
+
+三更新远程版本库的节点名称
+2.git push-u origin master
+
+四,安装完成后验证用户
+1.验证用户：git config --globaluser.name "zhangsan"
+2.验证邮箱：git config --globaluser.email "123@sina.com"
+
+五，删除github 中的的文件
+1. git rm xx.fie
+2. git commit - m "dele file xx.file"
+3. git push origin master
+
+六，克隆github版本库
+1.git clone  git@github.com:chenggongzhezhidao008/SCAWSPro.git
+
